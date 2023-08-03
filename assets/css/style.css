@@ -1,0 +1,592 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Personal Portfolio HTML5 Template
+    Theme URI: https://themeforest.net/user/coder_item
+    Description: This is  HTML Web Template
+    Author: Coder_Item
+    Author URI: https://themeforest.net/user/coder_item 
+    Version: 1.0 
+  
+    Main Color : #000000
+    main Font : 'Poppins', sans-serif; 
+
+-----------------------------------------------------------------------------------   
+
+     1. General
+     2. Typography
+     3. Header Area 
+     4. About Me Area
+     5. Services Area
+     6. My skills Area 
+     7. My protfolio Area
+     8. Counter Up Area
+     9. Hire Me Area
+    10. Testimonials Area
+    11. Contact Area
+    12. Footer Area
+    13. Scroll Up Area
+    14. Preloader Area
+    
+    15. Second Version
+    16. Third Version 
+
+
+-----------------------------------------------------------------------------------*/
+
+/*****************************************************/
+/*************     1. General     ********************/
+/*****************************************************/
+
+*{
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  outline: none !important;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+input{
+    outline:none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*****************************************************/
+/*************    2. Typography   ********************/
+/*****************************************************/
+h1{
+    font-family: 'Proxima Nova Th';
+    font-weight: 800 !important;
+    font-size: 48px !important;
+    line-height: 72px !important;
+    color: #000000;
+}   
+h2{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+}
+h4{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color:#000000;
+}
+h5{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #444444;
+}
+h6{
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: #444444;
+}
+p{  
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px; 
+    margin-top: 12px;
+}
+li{
+    font-family: 'Proxima Nova Rg';
+    font-weight: 400;
+    font-size: 16px;
+}
+a{
+    font-family: 'Proxima Nova Rg';
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+}
+input{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.section-padding {
+	padding:50px 0px;
+	
+}
+.section-padding h2 {
+	text-transform:uppercase;
+}
+
+/*****************************************************/
+/*************     Home Page     ********************/
+/*****************************************************/
+
+/******************header_area*************************/
+.main-header-area {}
+/* 1st image carousel */
+.camera_wrap {
+	height: 400px !important;
+}
+.camera_caption {
+	color: #fff;
+	margin: 0% 0% 13% 7%;
+}
+
+.camera_commands {
+	display: none;
+}
+.camera_prev {
+	display: none !important;
+}
+.camera_next {
+	display: none !important;
+}
+.camera_bar_cont {
+	display: none !important;
+}
+.camera_bar_cont {
+	display: none !important;
+}
+.camera_pag {
+	display: none !important;
+}
+.camera_caption > div {
+	background: none !important;
+}
+
+
+.header-slider-logo .logo a {
+	float:left;
+	overflow:hidden;
+}
+.header-slider-logo .logo h2 {
+	overflow: hidden;
+	color: #fff;
+	padding-top: 26px;
+	padding-left: 15px;
+	font-weight: 600;
+	font-size: 35px;
+	text-shadow: 5px 4px 5px #000;
+}
+/* header-slider-logo */
+.header-slider-logo {
+	 position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.header-slider-logo img {
+	width:80px;
+}
+
+
+
+.header_area {
+	background: #037CCE;
+}
+.header_area .logo {
+	display:none;
+}
+.logo img {
+	width: 80px;
+	height: auto;
+	padding: 5px 0px;
+}
+.main_menu {}
+.main_menu ul {
+	display: flex;
+	justify-content: center;
+	width:100%;
+}
+.main_menu ul li {
+	list-style: none;
+}
+.main_menu ul li a {
+	padding: 8px 8px;
+	font-family: roboto;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 8px;
+}
+.main_menu ul li a:hover {
+	text-decoration:underline !important;
+}
+
+/******************newsticker-area************************/
+.newsticker-area {
+	background:#EEEEEE;
+}
+
+/******************notice-area************************/
+.notice-board-area {
+	
+}
+.board-area {
+	background-color: #fafafa;
+}
+
+.important-link {
+	
+}
+.important-link h2 {
+	padding-bottom:10px;
+}
+.important-link ul {}
+.important-link ul li {}
+.important-link ul li a {
+	padding-bottom: 2px;
+	color: #000;
+	margin-bottom: 3px;
+}
+.important-link ul li a:hover {
+	text-decoration: underline !important;
+}
+.important-link  ul li i {
+	color:#037CCE;
+}
+/******************banner-area*************************/
+.banner-area {
+	background-image: url(../images/bg/2.png);
+	background-color: #037CCE;
+	background-attachment: fixed;
+	background-position: center;
+	padding-bottom:100px;
+}
+.banner {
+	
+}
+.banner h2 {
+	font-size: 60px;
+	padding: 115px 0px;
+	width: 48%;
+	color:#FFFFFF;
+}
+.banner_btn {}
+.banner_btn ul {
+	display:flex;
+	
+}
+.banner_btn ul li {
+	margin: 0px 10px 0px 10px;
+}
+.banner_btn ul span {
+	background:#FF7AD2;
+	border-radius:25px;
+}
+.banner_btn ul li a {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 0px;
+	padding: 15px 25px;
+	border-radius: 25px;
+	display: inline-block;
+}
+.bn_bt {
+	background-color: #000000;
+	border-radius:25px;
+}
+.et-aria {
+	background-image: url(../images/bg/etbg.png);
+	background-color: #037CCE;
+	background-attachment: fixed;
+	background-position: center;
+	padding-bottom:100px;
+}
+.et-aria h2 {
+	width:70%;
+}
+.ct-aria {
+	background-image: url(../images/bg/ctbg.png);
+		background-color: #037CCE;
+	background-attachment: fixed;
+	background-position: center;
+	padding-bottom:100px;
+}
+
+/******************owl-carousel*************************/
+.owl-carousel {
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+/******************our course area*************************/
+.our-course-area {}
+.course-section {
+	text-align: center;
+	padding: 20px 0px;
+	box-shadow: 0px 5px 5px 7px #FAFAFA;
+}
+.course-section img {
+	width:200px;
+	height:150px;
+}
+.course-section h2 {
+	padding-top: 15px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.course-section p {}
+
+/******************About area*************************/
+.about-aria {
+	background-color: #FAFAFA;
+}
+.about-section-left {
+	width: 54%;
+}
+.about-section-left h5 {}
+.about-section-left h2 {}
+.about-section-left p {}
+.about-section-right {}
+.about-section-right img{
+	width:100%;
+	
+}
+/******************our service area*************************/
+.our-service-area {
+	background: #037CCEBD;
+}
+.our-service {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.our-service-image {
+	padding: 25px 0px;
+}
+.our-service-image img {
+	width: 100%;
+	height: auto;
+}
+.our-service-text {
+	padding: 25px 0px;
+}
+.our-service-text h2 {
+	color:#fff;
+}
+.our-service-text p {
+	font-size:18px;
+	color:#fff;
+}
+.service-area-heading h2 {
+	color:#fff;
+}
+
+
+
+
+
+
+/*****************************************************/
+/*************    11. Contact Area   *****************/
+/*****************************************************/
+.section-heading {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.contact-area{
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.contact-input input,textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid #929292;
+    padding: 12px 12px;
+    margin-bottom: 25px;
+}
+.contact-input textarea{
+    height: 180px;
+}
+.contact-input input:focus, textarea:focus {
+    color: #000;
+    border: 1px solid #0056B3 !important;
+    outline: none;
+}
+.contact-submit input {
+    border: none;
+    background-color: #0056B3;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 12px 36px;
+    cursor: pointer;
+    border:1px solid transparent;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.contact-submit input:hover{
+    color:#0056B3;
+    background-color: transparent;
+    border:1px solid #0056B3;
+}
+.about-social-images img {
+    width: 160px;
+    height: auto;
+}
+.about-social-content {
+    padding-left: 35px;
+}
+.about-social-content h6 {
+	padding-bottom: 25px;
+	font-size: 38px;
+}
+.about-social-content p {
+    color: #222222;
+    margin-top: 0;
+}
+.about-social-content a {
+    color: #222222;
+    margin-top: 0;
+}
+.about-social-icon {
+    padding-top: 40px;
+}
+.about-social-icon ul{
+    float: left;
+}
+.about-social-icon ul li {
+    display: inline-block;
+}
+.about-social-icon ul li a i {
+    width: 50px;
+    height: 50px;
+    border: .5px solid #000000;
+    border-radius: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.about-me-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+}
+.about-social-icon i:hover{
+     color: #ffffff;
+     border: 1px solid transparent;
+}
+.about-social-icon i.fa-facebook-f:hover{
+    background-color: #0377E9;
+}
+.about-social-icon i.fa-twitter:hover{
+    background-color: #00acee;
+}
+.about-social-icon i.fa-instagram:hover{
+    background-color: #517fa4;
+}
+.about-social-icon i.fa-dribbble:hover{
+    background-color:#ea4c89;
+}
+.about-social-icon i.fa-at:hover{
+    background-color: #3e65cf;
+}
+.about-social-icon i.fa-skype:hover{
+    background-color: #00aff0;
+}
+.about-social-icon i.fa-pinterest-p:hover{
+    background-color: #bd081c;
+}
+
+/*****************************************************/
+/*************    footer-area   *****************/
+/*****************************************************/
+.footer-area {
+	padding-bottom: 0px;
+}
+.footer-service {
+	
+}
+.footer-service h2 {
+	font-size: 16px;
+	padding-bottom: 14px;
+}
+.footer-Course {}
+.footer-Course h2 {
+	font-size: 16px;
+	padding-bottom: 14px;
+}
+.footer-page {}
+.footer-page h2 {
+	font-size: 16px;
+	padding-bottom: 14px;
+}
+.footer-address {
+	text-align:center;
+}
+.footer-address ul {}
+.footer-address ul li {
+	color:#fff;
+}
+.footer-bottom {
+	background: #037CCE;
+	padding: 15px 0px;
+}
+.footer-page ul li a {
+	color:#000;
+}
+.footer-page ul li a:hover {
+	text-decoration:underline !important;
+}
+
+
+
+
+
+.coming-institute {
+	padding: 25px 0px;
+}
+.coming-institute h2 {}
+.coming-institute ul {}
+.coming-institute ul li {}
+.coming-institute ul li span p {
+	font-weight: 600;
+	color: #037CCE;
+	font-size: 18px;
+}
+.coming-institute ul li p {}
+.coming-institute ul li p i {
+	color: #037CCE;
+}
+
+
+
+
+
